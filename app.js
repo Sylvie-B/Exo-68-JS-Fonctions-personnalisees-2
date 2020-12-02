@@ -7,6 +7,6 @@ function alea() {
 console.log(alea());
 
 for(let i = 0; i < elementP.length; i++){
-    elementP.item(i).innerHTML = alea();
+    elementP.item(i).innerHTML = alea().toString();
 }
 
